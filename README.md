@@ -1,6 +1,6 @@
 # :electric_plug: figwalk
 
-<b>React-based Figma plugin template</b>
+<b>Figma plugin template</b>
 <br />
 
 <!--
@@ -50,10 +50,6 @@ That's it! Visual Studio Code will regenerate the JavaScript file every time you
 Install the [Figma desktop app](https://www.figma.com/downloads/) and [node.js](https://nodejs.org/en/download/)
 \
 \
-Install TypeScript
-```
-$ npm install -g typescript
-```
 Clone the project repo
 ```
 $ git clone https://github.com/sethvm/figwalk.git
@@ -63,21 +59,18 @@ Install the project dependencies
 $ cd figwalk
 $ npm install
 ```
-To compile a plugin, navigate to its directory, e.g.
+Compile the plugin template
 ```
-$ cd starter
-$ tsc
+$ npm run build
 ```
 
-## :computer: Running Plugins
+## :computer: Running in Figma
  - In the Figma desktop app, Navigate to the `Plugins` menu via the user dropdown
  - Under `In development`, open the menu and select `Import plugin from manifest...`
- - Select the `manifest.json` file in the folder of the desired plugin
+ - Select the `manifest.json` file in the project root folder
  - Open any Figma board and load the plugin from the `Plugins > Development` menu
 
 ## :stars: To-Do
  - Implement React tooling
- - Instructions
-    - Building & Running
-    - Screenshots
- - Documentation for each individual plugin
+ - Instruction screenshots
+ 
