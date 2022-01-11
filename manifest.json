@@ -1,0 +1,10 @@
+{
+  "name": "figwalk",
+  "id": "1062801169453770587",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": [
+    "figma"
+  ],
+  "ui": "ui.html"
+}
