@@ -38,6 +38,19 @@ NOTE: this template is NOT configured for building FigJam plugins
 <br />
 <br />
 
+## :computer: Running in Figma
+In the Figma desktop app, Navigate to the `Plugins` menu via the user dropdown
+\
+\
+Under `In development`, open the menu and select `Import plugin from manifest...`
+\
+\
+Select the `manifest.json` file in the project root folder
+\
+\
+Open any Figma board and load the plugin from the `Plugins > Development` menu
+<br />
+<br />
 
 ## :scroll: All Available Commands
 Build for development (enables auto-compile)
@@ -53,17 +66,3 @@ Run code formatter
 $ npm run format
 ```
 Formatter can be configured by editing .prettierrc — refer to the [Prettier Options page](https://prettier.io/docs/en/options.html) for a list of all available options
-<br />
-<br />
-
-## :computer: Running in Figma
-In the Figma desktop app, Navigate to the `Plugins` menu via the user dropdown
-\
-\
-Under `In development`, open the menu and select `Import plugin from manifest...`
-\
-\
-Select the `manifest.json` file in the project root folder
-\
-\
-Open any Figma board and load the plugin from the `Plugins > Development` menu
