@@ -1,6 +1,8 @@
 # production
 /node_modules
 /dist
+*.css
+*.css.map
 code.js
 
 # macOS

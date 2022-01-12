@@ -1,5 +1,7 @@
 # production
 dist
+*.css
+*.css.map
 
 # node
 node_modules
