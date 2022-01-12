@@ -5,12 +5,12 @@ const path = require('path');
 module.exports = (env, argv) => ({
     mode: argv.mode === 'production' ? 'production' : 'development',
 
-    // This is necessary because Figma's 'eval' works differently than normal eval
+    // needed because Figma's 'eval' works differently than normal eval
     devtool: argv.mode === 'production' ? false : 'inline-source-map',
 
     entry: {
-        ui: './src/ui.tsx', // The entry point for your UI code
-        code: './src/code.ts', // The entry point for your plugin code
+        ui: './src/ui.tsx', // entry point for UI code
+        code: './src/code.ts', // entry point for plugin code
     },
 
     module: {
@@ -26,16 +26,16 @@ module.exports = (env, argv) => ({
         ],
     },
 
-    // Webpack tries these extensions for you if you omit the extension like "import './file'"
+    // fallback extensions if import extension is omitted, i.e. "import './file'"
     resolve: { extensions: ['.tsx', '.ts', '.jsx', '.js'] },
 
     output: {
         filename: '[name].js',
         publicPath: '/',
-        path: path.resolve(__dirname, 'dist'), // Compile into a folder called "dist"
+        path: path.resolve(__dirname, 'dist'), // compile into a folder called "dist"
     },
 
-    // Tells Webpack to generate "ui.html" and to inline "ui.ts" into it
+    // tells Webpack to generate "ui.html" and to inline "ui.ts" into it
     plugins: [
         new HtmlWebpackPlugin({
             template: './src/ui.html',
