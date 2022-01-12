@@ -27,6 +27,13 @@ npm run dev
 Plugin assets are stored in the `src` directory
 \
 \
+Format code
+```
+npm run format
+```
+Formatter can be configured by editing .prettierrc — refer to the [Prettier Options page](https://prettier.io/docs/en/options.html) for a list of all available options
+\
+\
 Compile the plugin for production
 ```
 npm run build
@@ -44,18 +51,3 @@ Select the `manifest.json` file in the project root folder
 \
 \
 Open any Figma board and load the plugin from the `Plugins > Development` menu
-
-## :scroll: All Available Commands
-Build for development (enables auto-compile)
-```
-npm run dev
-```
-Build for production (outputs a minified bundle)
-```
-npm run build
-```
-Run code formatter
-```
-npm run format
-```
-Formatter can be configured by editing .prettierrc — refer to the [Prettier Options page](https://prettier.io/docs/en/options.html) for a list of all available options
