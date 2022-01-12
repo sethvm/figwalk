@@ -17,7 +17,7 @@ npm install
 ```
 
 ## :black_nib: Development
-Refer to the [Figma API documentation](https://www.figma.com/developers/api) for details on developing plugins
+Refer to the [Figma API documentation](https://www.figma.com/plugin-docs/intro/) for details on developing plugins
 \
 \
 Run the following command to build for development
