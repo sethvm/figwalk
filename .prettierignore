@@ -1,0 +1,14 @@
+# production
+dist
+
+# node
+node_modules
+
+# SVG assets:
+*.svg
+
+# readme
+README.md
+
+# macOS
+.DS_Store
