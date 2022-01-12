@@ -1,8 +1,6 @@
 # :electric_plug: FigWalk
 
 <b>React-based starter for developing Figma plugins</b>
-<br />
-<br />
 
 ## :memo: Prerequisites
 Install the [Figma desktop app](https://www.figma.com/downloads/) and [node.js](https://nodejs.org/en/download/)
@@ -17,7 +15,6 @@ Install the project dependencies
 $ cd figwalk
 $ npm install
 ```
-<br />
 
 ## :black_nib: Development
 Refer to the [Figma API documentation](https://www.figma.com/developers/api) for details on developing plugins
@@ -35,8 +32,6 @@ Compile the plugin for production
 $ npm run build
 ```
 NOTE: this template is NOT configured for building FigJam plugins
-<br />
-<br />
 
 ## :computer: Running in Figma
 In the Figma desktop app, Navigate to the `Plugins` menu via the user dropdown
@@ -49,8 +44,6 @@ Select the `manifest.json` file in the project root folder
 \
 \
 Open any Figma board and load the plugin from the `Plugins > Development` menu
-<br />
-<br />
 
 ## :scroll: All Available Commands
 Build for development (enables auto-compile)
