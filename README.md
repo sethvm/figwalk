@@ -8,12 +8,12 @@ Install the [Figma desktop app](https://www.figma.com/downloads/) and [node.js](
 \
 Clone the project repo
 ```
-$ git clone https://github.com/sethvm/figwalk.git
+git clone https://github.com/sethvm/figwalk.git
 ```
 Install the project dependencies
 ```
-$ cd figwalk
-$ npm install
+cd figwalk
+npm install
 ```
 
 ## :black_nib: Development
@@ -22,14 +22,14 @@ Refer to the [Figma API documentation](https://www.figma.com/developers/api) for
 \
 Run the following command to build for development
 ```
-$ npm run dev
+npm run dev
 ```
 Plugin assets are stored in the `src` directory
 \
 \
 Compile the plugin for production
 ```
-$ npm run build
+npm run build
 ```
 NOTE: this template is NOT configured for building FigJam plugins
 
@@ -48,14 +48,14 @@ Open any Figma board and load the plugin from the `Plugins > Development` menu
 ## :scroll: All Available Commands
 Build for development (enables auto-compile)
 ```
-$ npm run dev
+npm run dev
 ```
 Build for production (outputs a minified bundle)
 ```
-$ npm run build
+npm run build
 ```
 Run code formatter
 ```
-$ npm run format
+npm run format
 ```
 Formatter can be configured by editing .prettierrc — refer to the [Prettier Options page](https://prettier.io/docs/en/options.html) for a list of all available options
